@@ -1,0 +1,108 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo {
+    width: 70px;
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caixa-texto {
+    width: 700px;
+}
+
+h1 {
+    color: #333;
+    font-size: 70px;
+    font-weight: bold; /*Grossura da fonte */
+}
+
+span {
+    color: #036635;
+    font-size: 90px;
+    font-weight: 800;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    background: #036635;
+    color: #fff;
+    border: none;
+    width: 150px;
+    font-weight: 500;
+    font-size: 70;
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer; /*Muda o cursor para ponteiro em cima do botão*/
+    transition: 0.5s;/*Transição de uma cor para outra na config hover*/
+}
+
+button:hover /*Só aplica o efeito quando o cursor passar por cima*/ {
+    background: #02381d;
+}
+
+.caixa-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+
+.starbucks {
+    width: 350px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.botao-menu0 {
+    width: 70px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.botao-menu0:hover {
+    transform: translateY(-20px);
+}
+
+.botao-menu1 {
+    width: 110px;
+    cursor: pointer;
+    transition: 0.7s
+}
+
+.botao-menu1:hover {
+    transform: translateY(-20px);
+}
+
+.botao-menu2 {
+    width: 85px;
+    cursor: pointer;
+    transition: 0.7s
+}
+
+.botao-menu2:hover {
+    transform: translateY(-20px);
+}
