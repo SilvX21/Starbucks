@@ -14,7 +14,8 @@
 </head>
 
 <body>
-
+    <div class="circulo"></div>
+    
     <img class="logo" src="imgs/Logo.png" alt="imagem-logo-starbucks">
 
     <div class="conteudo">
@@ -26,7 +27,7 @@
                 voluptatibus perferendis voluptatum ex non. Explicabo doloribus sunt corrupti aperiam. Officia,
                 laudantium?
                 Possimus, id similique.</p>
-            <button>Clique para Mais!</button>
+            <button>Saiba Mais!</button>
 
         </div>
 
@@ -42,13 +43,15 @@
     <div class="menu">
 
         <div class="caixa-menu">
-            <img class="botao-menu0" src="imgs/Thumb1.png" alt="imagem-copo-starbucks1">
-            <img class="botao-menu1" src="imgs/Thumb2.png" alt="imagem-copo-starbucks2">
-            <img class="botao-menu2" src="imgs/Thumb3.jpg" alt="imagem-copo-starbucks3">
+            <img onclick="trocarCor('#960505'); trocarImagem('imgs/Thumb1.png'); trocarTamanho('350px')" class="botao-menu0" src="imgs/Thumb1.png" alt="imagem-copo-starbucks1">
+            <img onclick="trocarCor('#bb9162'); trocarImagem('imgs/Thumb2.png'); trocarTamanho('492px')" class="botao-menu1" src="imgs/Thumb2.png" alt="imagem-copo-starbucks2">
+            <img onclick="trocarCor('#036635'); trocarImagem('imgs/Thumb3.png'); trocarTamanho('335px')" class="botao-menu2" src="imgs/Thumb3.png" alt="imagem-copo-starbucks3">
         </div>
 
     </div>
 
 </body>
+
+<script src="app.js"></script>
 
 </html>

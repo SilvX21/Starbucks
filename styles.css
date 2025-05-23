@@ -98,11 +98,22 @@ button:hover /*Só aplica o efeito quando o cursor passar por cima*/ {
 }
 
 .botao-menu2 {
-    width: 85px;
+    width: 74px;
     cursor: pointer;
     transition: 0.7s
 }
 
 .botao-menu2:hover {
     transform: translateY(-20px);
+}
+
+.circulo {
+    width: 100%;
+    height: 100%;
+    background: #960505;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px); /*Recorta a div em formato de circulo com tamanho 600px a 800px para a direita*/
+    z-index: -1;
 }
